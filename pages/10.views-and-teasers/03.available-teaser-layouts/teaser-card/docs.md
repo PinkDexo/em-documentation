@@ -123,6 +123,6 @@ teaser--small--large | Defines small teaser card
 
 | Class Name | Description |
 | ---------- | ----------- |
-teaser--bordered | Creates border around the teaser card
+teaser--bordered | Creates bordered teaser card
 is--highlighted | Highlights the teaser card
 
