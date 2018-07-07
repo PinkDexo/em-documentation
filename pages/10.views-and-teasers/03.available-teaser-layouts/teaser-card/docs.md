@@ -1,5 +1,6 @@
 ---
 title: 'Teaser Card'
+media_order: 'card--large.jpg,card--small.jpg,card.jpg'
 published: false
 ---
 
