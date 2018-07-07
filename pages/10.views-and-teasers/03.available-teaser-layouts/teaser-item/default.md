@@ -72,7 +72,7 @@ media_order: 'item--large.jpg,item--small.jpg,item.jpg'
     </div>
   </div>
 </div>
-
+```
 ---
 
 ## Small Teaser Item
