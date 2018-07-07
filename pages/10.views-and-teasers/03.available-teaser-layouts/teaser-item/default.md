@@ -45,6 +45,33 @@ media_order: 'item--large.jpg,item--small.jpg,item.jpg'
 
 ![](item--large.jpg)
 
+```html
+<div class="teaser teaser--item">
+  <div class="teaser__media">
+    <div class="image teaser__image">
+      <a href="#">
+        <img src="thumb.jpg">
+      </a>
+    </div>
+  </div>
+  <div class="teaser__content">
+    <div class="channel channel--bordered teaser__channel">
+      Category
+    </div>
+    <h2 class="teaser__headline">
+      <a href="#">Title</a>
+    </h2>
+    <div class="teaser__authored">
+      July 5, 2018, by Author
+    </div>
+    <div class="teaser__body">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+    </div>
+    <div class="button teaser__link">
+      <a href="#">Read more</a>
+    </div>
+  </div>
+</div>
 
 ---
 
@@ -86,4 +113,5 @@ teaser--small--large | Defines small teaser item
 
 | Class Name | Description |
 | ---------- | ----------- |
-teaser--bordered | Creates border around the teaser
+teaser--bordered | Creates border around the teaser item
+is--highlighted | Highlights the teaser item
