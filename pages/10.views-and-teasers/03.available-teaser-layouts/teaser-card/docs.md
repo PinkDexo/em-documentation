@@ -1,6 +1,6 @@
 ---
 title: 'Teaser Card'
-published: false
+published: true
 ---
 
 ## Teaser Card
