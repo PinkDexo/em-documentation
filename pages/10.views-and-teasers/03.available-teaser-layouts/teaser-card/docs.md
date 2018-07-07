@@ -4,7 +4,7 @@ media_order: 'card--large.jpg,card--small.jpg,card.jpg'
 published: true
 ---
 
-### Default Card
+## Default Teaser Card
 
 ![](card.jpg)
 
@@ -39,7 +39,9 @@ published: true
 </div>
 ```
 
-### Large Card
+---
+
+## Large Teaser Card
 
 ![](card--large.jpg)
 
@@ -72,7 +74,9 @@ published: true
 </div>
 ```
 
-### Small Card
+---
+
+## Small Teaser Card
 
 ![](card--small.jpg)
 
@@ -102,7 +106,11 @@ published: true
 </div>
 ```
 
-## Element Class
+---
+
+
+
+#### Element Class
 
 | Class Name | Description |
 | ---------- | ----------- |
@@ -111,7 +119,7 @@ teaser--card--large | Defines large teaser card
 teaser--small--large | Defines small teaser card
 
 
-## Modifier Class
+#### Modifier Class
 
 | Class Name | Description |
 | ---------- | ----------- |
