@@ -4,7 +4,7 @@ media_order: 'card--large.jpg,card--small.jpg,card.jpg'
 published: false
 ---
 
-## Teaser Card
+### Default Card
 
 ![](card.jpg)
 
@@ -39,7 +39,7 @@ published: false
 </div>
 ```
 
-## Large Teaser Card
+### Large Card
 
 ![](card--large.jpg)
 
@@ -72,7 +72,7 @@ published: false
 </div>
 ```
 
-## Small Teaser Card
+### Small Card
 
 ![](card--small.jpg)
 
