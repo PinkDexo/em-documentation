@@ -16,6 +16,8 @@ To change the color scheme:
 
 ![](color-module-ui.png)
 
+---
+
 ### Example
 
 ![](color-before-after.jpg)
