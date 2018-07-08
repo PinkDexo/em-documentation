@@ -1,5 +1,8 @@
 ---
 title: 'Compact Teaser'
+taxonomy:
+    category:
+        - docs
 ---
 
 ## Default Compact Teaser
