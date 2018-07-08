@@ -1,6 +1,9 @@
 ---
 title: 'Teaser Item'
 media_order: 'item--large.jpg,item--small.jpg,item.jpg'
+taxonomy:
+    category:
+        - docs
 ---
 
 ## Default Teaser Item
