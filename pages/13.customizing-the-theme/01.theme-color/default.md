@@ -18,8 +18,6 @@ To change the color scheme:
 
 ---
 
-### Example
-
 ![](color-before-after.jpg)
 
 
