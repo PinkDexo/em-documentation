@@ -6,7 +6,7 @@ taxonomy:
         - docs
 ---
 
-The theme integrates Drupal **Color module**  which will allows you to change the color scheme of a theme.
+The theme integrates Drupal **Color module**  which allows you to change the color scheme of a theme.
 
 To change the color scheme:
 
