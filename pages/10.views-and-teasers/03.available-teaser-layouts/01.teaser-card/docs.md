@@ -83,7 +83,7 @@ published: true
 
 ```html
 <div class="teaser teaser--card--small">
-<div class="teaser__media">
+  <div class="teaser__media">
     <div class="relative">
       <div class="channel channel--boxed teaser__channel">
         Category
