@@ -1,5 +1,5 @@
 ---
-title: 'Customizing the Theme'
+title: 'Modifying template files'
 media_order: theme-debug.jpg
 ---
 
