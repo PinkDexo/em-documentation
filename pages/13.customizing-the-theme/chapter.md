@@ -5,3 +5,6 @@ taxonomy:
         - docs
 ---
 
+# Customizing the Theme
+
+Theme color and template files
