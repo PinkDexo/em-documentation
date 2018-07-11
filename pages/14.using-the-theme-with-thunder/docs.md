@@ -1,4 +1,4 @@
 ---
-title: 'Using the theme with Thunder'
+title: 'Using with Thunder'
 ---
 
