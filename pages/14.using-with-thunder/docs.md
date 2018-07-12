@@ -1,7 +1,6 @@
 ---
-title: 'Using with Thunder'
+title: 'Using the Theme with Thunder Distribution'
 ---
-
 
 Thunder is a Drupal 8 distribution for professional publishing. It consists of the current Drupal 8 functionality, lots of handpicked publisher-centric modules with custom enhancements, and an environment which makes it easy to install, deploy and add new functionality.
 
@@ -39,13 +38,11 @@ You can run this Drush command to enable them all:
 !! Note that the configuration import might fail if you haven't enable the EM Magazine theme, or some of the modules from above.
 
 
-4. Import the EM configuration. The ENVATO_PACKAGE/em_thunder/config contains configuration files which you have to import in your Thunder distribution in order to bring in the EM functionalities.
+4. Import the EM configuration. The **ENVATO_PACKAGE/em_thunder/config** contains configuration files which you have to import in your Thunder distribution in order to bring in the EM functionalities.
 Copy the "config" directory somewhere in you environment so it can be accessible for your terminal, then run this Drush command:
 
 `drush cim -y --partial --source=YOUR_CONFIG_DIR_LOCATION/config`
 
-5. After successful importing, set your [Front Page](/adjust-basic-site-settings#front-page). 
-<br>
-You can use Drush also to set your "Front Page" like this:
+5. After successful importing, you can set your [Front Page](/adjust-basic-site-settings#front-page) manualy, or with Drush. 
 
 `drush cset -y system.site page.front /right-sidebar/two-columns-masonry`
