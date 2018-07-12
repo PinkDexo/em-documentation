@@ -36,7 +36,7 @@ You can run this Drush command to enable them all:
 `drush en -y custom_pub field_formatter field_formatter masonry masonry_views page_manager page_manager_ui panelizer panels realname slick_views twig_field_value twig_tweak em_dynamic_teaser em_tweaks em_magazine`
 
 
-! Note that the configuration import might fail if you haven't enable the EM Magazine theme, or some of the modules from above.
+! Note that the configuration import might fail if you have not enabled the EM Magazine theme, or some of the modules from above.
 
 
 4. Import the EM configuration. The **ENVATO_PACKAGE/em_thunder/config** contains configuration files which you have to import in your Thunder distribution in order to bring in the EM functionalities.
