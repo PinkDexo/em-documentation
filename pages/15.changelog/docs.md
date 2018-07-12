@@ -5,6 +5,12 @@ taxonomy:
         - docs
 ---
 
+#### v1.2.0 (July 12, 2018)
+
+- Thunder Compatibility
+- Improvement: Improved template files and styles to ensure the Thunder compatibility.
+- Documentation: Added [instructions for installing](/using-with-thunder) EM theme and features on a Thunder distribution.
+
 #### v1.1.0 (July 5, 2018)
 
 - New Feature: Added Mega Menu.
