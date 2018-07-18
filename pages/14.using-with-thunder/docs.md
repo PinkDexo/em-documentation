@@ -13,7 +13,7 @@ Download project: https://www.drupal.org/project/thunder
 
 1. Install the Thunder distribution
 2. Copy modules and libraries from **ENVATO_PACKAGE/em_thunder** to to your Drupal Thunder root directory.
-3. Copy themes from **ENVATO_PACKAGE/em_theme** to to your Drupal Thunder theme directory.
+3. Copy themes from **ENVATO_PACKAGE/em_theme** to your Drupal Thunder theme directory.
 4. Enable the EM Magazine theme and all EM required modules"
 
  - Custom Publishing Options (custom_pub)
