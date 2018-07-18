@@ -13,7 +13,8 @@ Download project: https://www.drupal.org/project/thunder
 
 1. Install the Thunder distribution
 2. Copy modules and libraries from **ENVATO_PACKAGE/em_thunder** to to your Drupal Thunder root directory.
-3. Enable the EM Magazine theme and all EM required modules"
+3. Copy themes from **ENVATO_PACKAGE/em_theme** to to your Drupal Thunder theme directory.
+4. Enable the EM Magazine theme and all EM required modules"
 
  - Custom Publishing Options (custom_pub)
  - Field formatter (field_formatter)
@@ -39,11 +40,11 @@ You can run this Drush command to enable them all:
 ! Note that the configuration import might fail if you have not enabled the EM Magazine theme, or some of the modules from above.
 
 
-4. Import the EM configuration. The **ENVATO_PACKAGE/em_thunder/config** contains configuration files which you have to import in your Thunder distribution in order to bring in the EM functionalities.
+5. Import the EM configuration. The **ENVATO_PACKAGE/em_thunder/config** contains configuration files which you have to import in your Thunder distribution in order to bring in the EM functionalities.
 Copy the "config" directory somewhere in you environment so it can be accessible for your terminal, then run this Drush command:
 
 `drush cim -y --partial --source=YOUR_CONFIG_DIR_LOCATION/config`
 
-5. After successful importing, you can set your [Front Page](/adjust-basic-site-settings#front-page) manualy, or with Drush. 
+6. After successful importing, you can set your [Front Page](/adjust-basic-site-settings#front-page) manualy, or with Drush. 
 
 `drush cset -y system.site page.front /right-sidebar/two-columns-masonry`
