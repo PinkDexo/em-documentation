@@ -1,5 +1,5 @@
 ---
-title: 'Using the Theme with Thunder Distribution'
+title: 'Using the Theme on Thunder Distribution'
 taxonomy:
     category:
         - docs
