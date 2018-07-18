@@ -1,6 +1,9 @@
 ---
 title: 'Using the Theme with Thunder Distribution'
-menu: 'Using With Thunder'
+taxonomy:
+    category:
+        - docs
+menu: 'Drupal Thunder'
 ---
 
 Thunder is a Drupal 8 distribution for professional publishing. It consists of the current Drupal 8 functionality, lots of handpicked publisher-centric modules with custom enhancements, and an environment which makes it easy to install, deploy and add new functionality.
