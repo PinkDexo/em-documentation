@@ -30,6 +30,7 @@ Download project: https://www.drupal.org/project/thunder
  - Panels IPE (panels_ipe)
  - Real name (realname)
  - Slick Views (slick_views)
+ - Views Infinite Scroll (views_infinite_scroll)
  - Twig Field Value (twig_field_value)
  - Twig tweak (twig_tweak)
  - EM - Dynamic Teaser (em_dynamic_teaser)
@@ -37,7 +38,7 @@ Download project: https://www.drupal.org/project/thunder
 
 You can run this Drush command to enable them all:
 
-`drush en -y custom_pub field_formatter field_formatter masonry masonry_views page_manager page_manager_ui panelizer panels realname slick_views twig_field_value twig_tweak em_dynamic_teaser em_tweaks em_magazine`
+`drush en -y custom_pub field_formatter field_formatter masonry masonry_views page_manager page_manager_ui panelizer panels realname slick_views twig_field_value twig_tweak views_infinite_scroll em_dynamic_teaser em_tweaks em_magazine`
 
 
 ! Note that the configuration import might fail if you have not enabled the EM Magazine theme, or some of the modules from above.
