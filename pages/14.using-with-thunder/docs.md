@@ -19,6 +19,7 @@ Download project: https://www.drupal.org/project/thunder
 3. Copy themes from **ENVATO_PACKAGE/em_theme** to your Drupal Thunder theme directory.
 4. Enable the EM Magazine theme and all EM required modules"
 
+ - Statistics (statistics)
  - Custom Publishing Options (custom_pub)
  - Field formatter (field_formatter)
  - Masonry API (masonry)
@@ -38,17 +39,20 @@ Download project: https://www.drupal.org/project/thunder
 
 You can run this Drush command to enable them all:
 
-`drush en -y custom_pub field_formatter field_formatter masonry masonry_views page_manager page_manager_ui panelizer panels realname slick_views twig_field_value twig_tweak views_infinite_scroll em_dynamic_teaser em_tweaks em_magazine`
+`drush en -y statistics custom_pub field_formatter field_formatter masonry masonry_views page_manager page_manager_ui panelizer panels realname slick_views twig_field_value twig_tweak views_infinite_scroll em_dynamic_teaser em_tweaks em_magazine`
 
+5. Set **EM Magazine** as default theme
+
+`drush cset -y system.theme default em_magazine`
 
 ! Note that the configuration import might fail if you have not enabled the EM Magazine theme, or some of the modules from above.
 
 
-5. Import the EM configuration. The **ENVATO_PACKAGE/em_thunder/config** contains configuration files which you have to import in your Thunder distribution in order to bring in the EM functionalities.
+6. Import the EM configuration. The **ENVATO_PACKAGE/em_thunder/config** contains configuration files which you have to import in your Thunder distribution in order to bring in the EM functionalities.
 Copy the "config" directory somewhere in you environment so it can be accessible for your terminal, then run this Drush command:
 
 `drush cim -y --partial --source=YOUR_CONFIG_DIR_LOCATION/config`
 
-6. After successful importing, you can set your [Front Page](/adjust-basic-site-settings#front-page) manualy, or with Drush. 
+7. After successful importing, you can set your [Front Page](/adjust-basic-site-settings#front-page) manualy, or with Drush. 
 
 `drush cset -y system.site page.front /right-sidebar/two-columns-masonry`
