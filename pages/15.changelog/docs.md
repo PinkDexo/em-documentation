@@ -5,6 +5,11 @@ taxonomy:
         - docs
 ---
 
+#### v1.2.1 (October 5, 2018)
+
+- Drupal updated to 8.6.1
+- Modules updated to the latest version
+
 #### v1.2.0 (July 12, 2018)
 
 - Thunder Compatibility
