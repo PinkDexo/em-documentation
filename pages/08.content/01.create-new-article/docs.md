@@ -24,7 +24,7 @@ To create a new **Article**, from the toolbar choose **Content > Add content > A
 
 ![](article-layouts.png)
 
-2. **Channel** represents the site hierarchy. You can organize your content in categories and sub-categories (e.g. Lifestyle, Tech, Sports, etc). See [Categories and Tags](/managing-content/channels-and-tags) section for more on this topic.
+2. **Channel** represent the site hierarchy. You can organize your content in categories and sub-categories (e.g. Lifestyle, Tech, Sports, etc). See [Categories and Tags](/managing-content/channels-and-tags) section for more on this topic.
 
 3. In the **Title field** enter a title for your article.
 
