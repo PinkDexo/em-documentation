@@ -5,6 +5,15 @@ taxonomy:
         - docs
 ---
 
+#### v1.2.2 (October 14, 2018)
+
+- Fixed few JavaScript issues 
+- Improved CSS for IE
+- Improved IE 11 compatibility
+- Modules updated to the latest version
+- Bootstrap updated to version 4.1.3
+- Font Awesome library updated to version 5.4 and now loading from CDN
+
 #### v1.2.1 (October 5, 2018)
 
 - Drupal updated to 8.6.1
