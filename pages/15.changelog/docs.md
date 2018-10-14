@@ -10,9 +10,9 @@ taxonomy:
 - Fixed few JavaScript issues 
 - Improved CSS for IE
 - Improved IE 11 compatibility
-- Modules updated to the latest version
 - Bootstrap updated to version 4.1.3
 - Font Awesome library updated to version 5.4 and now loading from CDN
+- Modules updated to the latest version
 
 #### v1.2.1 (October 5, 2018)
 
