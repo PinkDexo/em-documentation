@@ -1,35 +1,47 @@
 ---
 title: 'Simple Installation'
-media_order: 'import-demo-2.jpg,import-demo-1.jpg,install-enable-modules.jpg,install-extend.jpg'
+media_order: 'import-demo-2.jpg,import-demo-1.jpg,install-enable-modules.jpg,install-extend.jpg,install-profile.jpg,install-lang.jpg,install-progress.jpg'
 taxonomy:
     category:
         - docs
 ---
 
-!! Do not perform this step on a existing site! All your data will be lost.
+1. Move the content from the **em_drupal** directory to your web root location or to your development environment. Make sure that you copied all the files including hidden files like **.htaccess**
+2. Run the installer. Visit your site in a web browser and you will be redirected to the installer page at **/core/install.php**
+3. Leave the language to English. If you plan to run the site on other language, you'll chaange the language later.
+
+![](install-lang.jpg)
+
+4. Choose **Standard** installation profile and click on “**Save and Continue**”.
+
+![](install-profile.jpg)
+
+5. Wait for Drupal to be installed.
+ 
+ ![](install-progress.jpg)
 
 <hr>
+ 
+###  Restoring EM database
 
-### Install Backup and Migrate module
+After installing Drupal, to get all the EM features, you have to restore the database.
 
-**Step 1**: Click on **Extend** in the Toolbar.
+1.  Click on **Extend** under administration toolbar (`/admin/modules`).
 
 ![](install-extend.jpg)
 
-**Step 2**: Find and enable "**Backup and Migrate**" and "**Admin Toolbar**" module.
+2. Enable **Backup and Migrate** and **Admin Toolbar** modules.
 
 ![](install-enable-modules.jpg)
 
-<hr>
-
-### Importing the Demo
-
-**Step 1**: Go to **Configuration > Development > Backup and Migrate** (`/admin/config/system/google-analytics`)
+3. Under Administration Toolbar, go to **Configuration > Development > Backup and Migrate**. (`/admin/config/development/backup_migrate`)
 
 ![](import-demo-1.jpg)
 
-**Step 2**: Choose the demo from "**em_demo**" directory located the Envato package and click **Restore now**.
+4. Click on the **Restore** tab, choose the "**themag.mysql.gz**" located in the configuration directory of the Envato package and click on **Restore now** button.
 
 ![](import-demo-2.jpg)
 
-! Demo data will override your access info. Now you can access on your Drupal site with - user: **demo** pass: **demo**
+!!! This method will override your access data. Now you can Log in to your Drupal site with - user: **demo** pass: **demo**. It is highly recommended to change your user name and password right after restoring the database.
+
+! **Notes for Windows users**<br>When you are using this installation method on a local development environment, in some cases after restoring the database you might see that the styles are not loaded correctly. This is because Drupal **Temporally directory** is set to **/tmp**. To fix this, go to **Configuration  > Media > File system** (`/admin/config/media/file-system`) and change the **Temporally directory** location according your environment.
