@@ -20,6 +20,7 @@ title: 'Update Instructions'
   |Featured grid 2 ([preview](https://em.pinkdexo.com/featured-grid/2)) | [Click here and copy the configuration](https://gist.github.com/PinkDexo/39ab9491adcfb230a95f9270d7b8ed1d) |
   |Featured grid 3 ([preview](https://em.pinkdexo.com/featured-grid/3)) | [Click here and copy the configuration](https://gist.github.com/PinkDexo/ac2eecee3753f3f4c678c682cc53be21) |
 
+---
 
 #### EM 1.2.2
 
