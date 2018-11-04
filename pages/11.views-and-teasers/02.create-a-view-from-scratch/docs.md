@@ -79,8 +79,9 @@ grid-xl--3-columns<br>
 This means that you can combine row classes in the Wrapper filed to transform the view depending on display width.<br>
 For exaple, if you use this three classes in the Wrapper field `list grid-md--2-columns grid-xl--4-columns`, you will have a list of items on a mobile devices, 2 columns grid on tablets and  4 columns grid on large displays.
 
+---
 
-##### Utility Classes
+### Utility Classes
 
 | Class Name | Description |
 | ---------- | ----------- |
