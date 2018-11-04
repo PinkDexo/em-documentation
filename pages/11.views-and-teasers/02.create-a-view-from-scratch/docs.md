@@ -63,9 +63,7 @@ taxonomy:
 | -------------- | ------------- |
 | **list** | Creates a list of items. |
 
-<br>
-
-### Responsive variations 
+###$ Responsive variations 
 
 You can also apply **Bootstrap responsive variations** on **grid--N** classes like this: **grid-VARIATION--N-columns**
 
