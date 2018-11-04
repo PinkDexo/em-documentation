@@ -5,6 +5,20 @@ taxonomy:
         - docs
 ---
 
+#### v1.3.0 (November 4, 2018)
+
+- Added support for Poll module.
+- Added support for MailChimp module.
+- Added 3 Featured Grid layouts.
+- Added 3 new Homepage Layouts.
+- Added 6 new regions on the Homepage layout.
+- Added Bootstrap responsive variation to grid layouts.
+- Removed dependency for Twig Field Value and Twig Tweak module.
+- Drupal Commerce is removed for new installs to simplify the maintenance of non commerce Drupal sites.
+- Updated Bootstrap library to v4.1.3.
+- Updated Documentation 
+- New [Demo Page](https://em.pinkdexo.com/)
+
 #### v1.2.2 (October 14, 2018)
 
 - Fixed few JavaScript issues 
