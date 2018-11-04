@@ -19,7 +19,7 @@ Since Drupal 8.6 allows sites to be installed from an existing configuration, yo
 $config_directories['sync'] = 'sites/default/em_config';
 ```
 
-5. Visit your site in a web browser, choose a **Language**, then choose "**Use existing configuration**"
+5. Visit your site in a web browser, choose a **Language**, then under Installation profile choose "**Use existing configuration**"
 
 ![](install-from-config.jpg)
 
