@@ -41,6 +41,7 @@ taxonomy:
 | **grid--5-columns** | Creates five columns grid. |
 | **grid--6-columns** | Creates six columns grid. |
 
+##### Bootstrap Card Columns
 
 | Class Name | Description |
 | -------------- | ------------- |
@@ -64,7 +65,7 @@ taxonomy:
 
 <br>
 
-##### Responsive variations 
+### Responsive variations 
 
 You can also apply **Bootstrap responsive variations** on **grid--N** classes like this: **grid-VARIATION--N-columns**
 
