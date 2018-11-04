@@ -1,6 +1,9 @@
 ---
 title: 'Installing EM from Configuration '
 media_order: install-from-config.jpg
+taxonomy:
+    category:
+        - docs
 ---
 
 Since Drupal 8.6 allows sites to be installed from an existing configuration, you can install the theme and all it's features using the EM configuration provided in the package.
