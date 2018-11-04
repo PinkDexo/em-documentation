@@ -1,5 +1,6 @@
 ---
 title: 'Installing EM from Configuration '
+media_order: install-from-config.jpg
 ---
 
 Since Drupal 8.6 allows sites to be installed from an existing configuration, you can install the theme and all it's features using the EM configuration provided in the package.
@@ -17,8 +18,7 @@ $config_directories['sync'] = 'sites/default/em_config';
 
 5. Visit your site in a web browser, choose **Language** and then choose "**Use existing configuration**"
 
-
-
+![](install-from-config.jpg)
 
 ### Using Drush
 
