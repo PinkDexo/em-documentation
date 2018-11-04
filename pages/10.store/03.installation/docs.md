@@ -19,7 +19,7 @@ composer require drupal/commerce
 drush en -y commerce_checkout em_commerce_field_group
 ```
 
-3. Unzip and move the "**shop_config**" directory, located in the **configuration** directory in Envato package to your Drupal root directory.
+3. Unzip and move "**shop_config**" directory from the **configuration** directory in Envato package to your Drupal root directory.
 4. Import the configuration with Drush:
 
 ```sh
