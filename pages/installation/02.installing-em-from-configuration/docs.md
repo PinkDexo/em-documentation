@@ -11,7 +11,7 @@ Since Drupal 8.6 allows sites to be installed from an existing configuration, yo
 ### Manually
 
 1. Move the content from the **em_drupal** directory to your web root location or to your development environment. Make sure that you copied all the files including hidden files like **.htaccess**
-2. From the Envato package, unzip and move the **configuration/em_config** directory to your Drupal **sites/default directory**, so the path will be **sites/default/em_config**.
+2. From the Envato package, unzip and move the **configuration/em_config** directory to your Drupal **sites/default** directory, so the path will be **sites/default/em_config**.
 3. Make a copy of **sites/default/default.settings.php** and rename it to **settings.php**. 
 4. Edit the **sited/default/settings.php** and set the configure sync directory location to point at **em_config** directory. To do that, add this line at the bottom of the settings.php file:
 
