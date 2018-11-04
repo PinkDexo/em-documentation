@@ -6,55 +6,83 @@ taxonomy:
         - docs
 ---
 
-**Step 1**: Go to Views page. **Choose Configure > Views** from toolbar.
-
-**Step 2**: Click on the "**Add new view**" button.
+1. Under Administration toolbar choose **Structure > Views**. (`/admin/structure/views`)
+2. Click the "**Add new view**" button.
 
 ![](views-add-new-view.jpg)
 
-**Step 3**: Give a view name and click on the "**Save and edit**" button at bottom of the page.
-
-**Step 4**: From the "**Add**" dropdown menu choose to add **Block**.
+3. Give the view a name and click the **Save and edit** button at bottom of the page.
+4. Click on the **Add** dropdown menu and choose **Block**.
 
 ![](views-add-new-view--add-block.jpg)
 
-**Step 5**:  Setting up the View
+5.  Setting up the View
 
-1. Click on the **Fields** link, change the row style to **Content** and choose a **teaser layout** form the list. See [available teaser layouts.](/views-and-teasers/available-teaser-layouts)
-2. Click on the **Unformatet List** and choose **HTML List**.
-3. Provide a CSS class from a [**Row Style Classes table** ](#row-style-classes) in the **Wrapper class** field to defined your view row style.
-4. Adjust view **filters and sort criteria**.
-5. Adjust the number of items and pager type.
-6. Choose name and category for the block.
+     1. Click on the **Fields** link, change the row style to **Content** and choose a **teaser layout** form the list. See [available teaser layouts.](/views-and-teasers/available-teaser-layouts)
+     2. Click on the **Unformatet List** and change it to **HTML List**.
+     3. Enter a CSS class from a [**Row Style Classes** ](#row-style-classes) in the **Wrapper class** field to defined the view row style.
+     4. Adjust the view **filters and sort criterias**.
+     5. Adjust the **number of items and choose a pager type**.
+     6. Choose name and category for the block.
 
 ![](views-add-new-view--from-scratch.jpg)
 
 ---
 
+### Row style classes
+
+##### Grid
+
+| Class Name | Description |
+| -------------- | ------------- |
+| **grid--2-columns** | Creates two columns grid. |
+| **grid--3-columns** | Creates three columns grid. |
+| **grid--4-columns** | Creates four columns grid. |
+| **grid--5-columns** | Creates five columns grid. |
+| **grid--6-columns** | Creates six columns grid. |
+
+
+| Class Name | Description |
+| -------------- | ------------- |
+| **column--2-columns** | Creates two columns masonry like list. See [Bootstrap Card columns](https://getbootstrap.com/docs/4.0/components/card/#card-columns). |
+| **column--3-columns** | Creates three columns masonry like list. See [Bootstrap Card columns](https://getbootstrap.com/docs/4.0/components/card/#card-columns). |
+| **column--4-columns** | Creates four columns masonry like list. See [Bootstrap Card columns](https://getbootstrap.com/docs/4.0/components/card/#card-columns). |
+
+##### Masonry
+
+| Class Name | Description |
+| -------------- | ------------- |
+| **masonry--2-columns** | Crete two columns masonry list. Applicable field: CSS class |
+| **masonry--3-columns** | Crete three columns masonry list. Applicable field: CSS class |
+| **masonry--4-columns** | Crete four columns masonry list. Applicable field: CSS class |
+
+##### List
+
+| Class Name | Description |
+| -------------- | ------------- |
+| **list** | Creates a list of items. |
+
 <br>
-### Row Style Classes
+
+##### Responsive variations 
+
+You can also apply **Bootstrap responsive variations** on **grid--N** classes like this: **grid-VARIATION--N-columns**
+
+**Example**:<br>
+grid--3-columns<br>
+grid-sm--3-columns<br>
+grid-md--3-columns<br>
+grid-lg--3-columns<br>
+grid-xl--3-columns<br>
+
+This means that you can combine row classes in the Wrapper filed to transform the view depending on display width.<br>
+For exaple, if you use this three classes in the Wrapper field `list grid-md--2-columns grid-xl--4-columns`, you will have a list of items on a mobile devices, 2 columns grid on tablets and  4 columns grid on large displays.
+
+
+##### Utility Classes
 
 | Class Name | Description |
 | ---------- | ----------- |
-| **grid__2-columns** | Creates two columns grid. Applicable field: Wrapper class  |
-| **grid__3-columns** | Creates three columns grid. Applicable field: Wrapper class |
-| **grid__4-columns** | Creates four columns grid. Applicable field: Wrapper class |
-| **grid__5-columns** | Creates five columns grid. Applicable field: Wrapper class |
-| **grid__6-columns** | Creates six columns grid. Applicable field: Wrapper class |
-| **column__2-columns** | Creates two columns masonry like list. See [Bootstrap Card columns](https://getbootstrap.com/docs/4.0/components/card/#card-columns). Applicable field: Wrapper class |
-| **column__3-columns** | Creates three columns masonry like list. See [Bootstrap Card columns](https://getbootstrap.com/docs/4.0/components/card/#card-columns). Applicable field: Wrapper class  |
-| **column__4-columns** | Creates four columns masonry like list. See [Bootstrap Card columns](https://getbootstrap.com/docs/4.0/components/card/#card-columns). Applicable field: Wrapper class  |
-| **masonry__2-columns** | Crete two columns masonry list. Applicable field: CSS class |
-| **masonry__3-columns** | Crete three columns masonry list. Applicable field: CSS class |
-| **masonry__4-columns** | Crete four columns masonry list. Applicable field: CSS class |
-| **list** | Creates classical list. Applicable field: Wrapper class |
-
-<br>
-
-### Teaser Style Classes
-
-| Class Name | Description |
-| ---------- | ----------- |
-| **no-borders** | Removers the border from a teaser element (e.g. teaser card). You can combine this class with any of the Row Style classes (e.g: grid grid__3-columns, no-borders). Applicable field: Wrapper class. |
-| **no-gutters** | Removes the gutter from the list. You can combine this class with any Row Style class that creates grid. Applicable field: Wrapper class.|
-| **equal-height** | Use this class to achieve an equal height of the Teaser Cards in the grid. You can combine this class with any Row Style class that creates grid. Applicable field: Wrapper class. |
+| **no-borders** | Removers borders from teasers |
+| **no-gutters** | Removes the gutter from the list.  You can combine this class with any grid--N class. |
+| **equal-height** | Combine this class with grid--N classes to make an equal height on a Teaser Cards in the grid. |
