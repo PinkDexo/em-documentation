@@ -23,6 +23,8 @@ $config_directories['sync'] = 'sites/default/em_config';
 
 ![](install-from-config.jpg)
 
+---
+
 ### Using Drush
 
 This method shows how to install Drupal and EM theme from an existing configuration using Drush. This method requires [**Drush 9**](https://www.drush.org/).
