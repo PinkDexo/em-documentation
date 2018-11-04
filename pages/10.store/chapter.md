@@ -3,6 +3,7 @@ title: Store
 taxonomy:
     category:
         - docs
+menu: 'Online Shop'
 child_type: docs
 ---
 
