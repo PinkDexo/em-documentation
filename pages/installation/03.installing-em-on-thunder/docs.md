@@ -21,25 +21,25 @@ Installing TheMAG on Thunder requires **Drush**.
 
 ```sh
 drush en -y \
-  statistics /
-  custom_pub /
-  field_formatter /
-  masonry /
-  masonry_views /
-  page_manager /
-  page_manager_ui /
-  panelizer /
-  panels /
-  panels_ipe /
-  realname /
-  slick_views /
-  views_infinite_scroll /
-  comment /
-  poll /
-  search /
-  block_content /
-  em_dynamic_teaser /
-  em_tweaks /
+  statistics \
+  custom_pub \
+  field_formatter \
+  masonry \
+  masonry_views \
+  page_manager \
+  page_manager_ui \
+  panelizer \
+  panels \
+  panels_ipe \
+  realname \
+  slick_views \
+  views_infinite_scroll \
+  comment \
+  poll \
+  search \
+  block_content \
+  em_dynamic_teaser \
+  em_tweaks \
   em_magazine
 ```
 
