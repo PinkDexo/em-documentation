@@ -38,7 +38,7 @@ After installing Drupal, to get all the EM features, you have to restore the dat
 
 ![](import-demo-1.jpg)
 
-4. Click on the **Restore** tab, choose the "**themag.mysql.gz**" located in the configuration directory of the Envato package and click on **Restore now** button.
+4. Click on the **Restore** tab, choose the "**em.mysql.gz**" located in the configuration directory in the Envato package and click on **Restore now** button.
 
 ![](import-demo-2.jpg)
 
