@@ -1,5 +1,5 @@
 ---
-title: 'Importing Demo'
+title: 'Import Demo Content'
 media_order: 'import-demo-2.jpg,import-demo-1.jpg,install-enable-modules.jpg,install-extend.jpg'
 taxonomy:
     category:
