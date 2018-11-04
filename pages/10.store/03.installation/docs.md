@@ -26,4 +26,4 @@ drush en -y commerce_checkout em_commerce_field_group
 drush cim -y --partial --source=shop_config/
 ```
 
-5. When the import finish, you can remove the **shop_config** directory from the Drupal root.
+5. When import finish, you can remove the **shop_config** directory from the Drupal root.
