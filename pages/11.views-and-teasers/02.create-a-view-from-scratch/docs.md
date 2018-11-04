@@ -41,6 +41,7 @@ taxonomy:
 | **grid--5-columns** | Creates five columns grid. |
 | **grid--6-columns** | Creates six columns grid. |
 
+<br>
 ##### Bootstrap Card Columns
 
 | Class Name | Description |
@@ -49,6 +50,7 @@ taxonomy:
 | **column--3-columns** | Creates three columns masonry like list. See [Bootstrap Card columns](https://getbootstrap.com/docs/4.0/components/card/#card-columns). |
 | **column--4-columns** | Creates four columns masonry like list. See [Bootstrap Card columns](https://getbootstrap.com/docs/4.0/components/card/#card-columns). |
 
+<br>
 ##### Masonry
 
 | Class Name | Description |
@@ -57,12 +59,14 @@ taxonomy:
 | **masonry--3-columns** | Crete three columns masonry list. Applicable field: CSS class |
 | **masonry--4-columns** | Crete four columns masonry list. Applicable field: CSS class |
 
+<br>
 ##### List
 
 | Class Name | Description |
 | -------------- | ------------- |
 | **list** | Creates a list of items. |
 
+<br>
 #### Responsive variations 
 
 You can also apply **Bootstrap responsive variations** on **grid--N** classes like this: **grid-VARIATION--N-columns**
