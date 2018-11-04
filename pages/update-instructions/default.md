@@ -2,6 +2,10 @@
 title: 'Update Instructions'
 ---
 
+#### EM 1.3.0
+
+Coming up...
+
 #### EM 1.2.2
 
 1. Replace your themes/em with the em theme located in the em_theme directory from Envato package.
