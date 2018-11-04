@@ -13,7 +13,7 @@ taxonomy:
 
 ![](move-blocks-across-layout.jpg)
 
-### Add new block to the page
+### Add new block
 
 1. Click on the "**Manage Content**" button at the bottom of the page.
 2. Click the **Category tab** from which you wish to add content on the page or use search if you're know block's name.
