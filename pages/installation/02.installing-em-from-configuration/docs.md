@@ -46,4 +46,6 @@ drush site:install --existing-config --db-url=mysql://db_user:db_pass@localhost/
 ```
 Change the **db_user**, **db_pass**, **db_host** and **db_name** with your database info. The **--account-name** is your Drupal username and the **--account-pass** is your Drupal password. This Drush command will install Drupal and will import EM configuration. 
 
+---
+
 ! On production site, and if your account has permission to do so, it's a good idea to move the configuration sync directory outside of the webroot entirely. If you move the directory ouside of your web root, open up your settings.php file and change the sync location to: e.g. `$config_directories['sync'] = '../mysite/config/sync'`;
