@@ -14,6 +14,8 @@ title: 'Update Instructions'
   3. Paste a certain View configuration from the table below and click **Import**
   4. To add a Featured grid layout on your page follow [Add New Block](https://docs.em.pinkdexo.com/pages/managing-page-layouts#add-new-block) instructions. You will fond **Featured grid** block under **(EM) Featured** category.
 
+<br>
+
   | View | Configuration |
   | ---- | ------------- |
   |Featured grid 1 ([preview](https://em.pinkdexo.com/featured-grid/1)) | [Click here and copy the configuration](https://gist.github.com/PinkDexo/de0953faa76793c6a905b3e18eb987f5) |
