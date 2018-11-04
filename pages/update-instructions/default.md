@@ -4,7 +4,7 @@ title: 'Update Instructions'
 
 #### EM 1.3.0
 
-1. Replace the **themes/em** with **em** theme from the Envato package located in **other/theme_only/** directory.
+1. In your Drupal theme directory, replace  **em** (`themes/em`) with **em** theme from the Envato package located in **other/theme_only/em**.
 2. Go to Performance page and clear the cache (`/admin/config/development/performance`)
 3. In order to improve responsive flexibility on grid layouts, the theme now use Bootstrap responsive variations on grid--N classes. This change will affect all Views with grid layouts. To make your grids responsive again, you have to change Wrapper class under Format settings in the View  according [this example](https://docs.em.pinkdexo.com/views-and-teasers/create-a-view-from-scratch#responsive-variations).
 4. If you'd like to use new Featured Grids on your site, use the Configuration manager to import the Views.
