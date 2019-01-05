@@ -42,7 +42,7 @@ drush en -y \
   em_magazine
 ```
 
-5. Enable EM Magazine theme
+5. Enable the EM Magazine theme
 
 ```sh
 # Note: Check your Drush version (drush --version) and use an appropriate command to enable the theme:
