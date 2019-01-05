@@ -16,7 +16,7 @@ Installing TheMAG on Thunder requires **Drush**.
 
 1. Download and install [**Drupal Thunder**](https://www.drupal.org/project/thunder).
 2. From the Envato package, move all directories from **em_thunder** to your Drupal Thunder root directory.
-4. Use Drush to enable the theme and required modules.
+4. Use Drush to enable required modules.
 
 ```sh
 drush en -y \
