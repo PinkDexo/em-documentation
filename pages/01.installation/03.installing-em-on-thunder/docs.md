@@ -38,8 +38,7 @@ drush en -y \
   search \
   block_content \
   em_dynamic_teaser \
-  em_tweaks \
-  em_magazine
+  em_tweaks
 ```
 
 5. Enable the EM Magazine theme
