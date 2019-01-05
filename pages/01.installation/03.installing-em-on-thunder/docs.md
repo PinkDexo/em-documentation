@@ -42,29 +42,41 @@ drush en -y \
   em_magazine
 ```
 
-5. Set EM Magazine as default theme
+5. Enable EM Magazine theme
+
+```sh
+# Note: Check your Drush version (drush --version) and use an appropriate command to enable the theme:
+
+# If you have Drush 8+ run:
+drush en -y em_magazine
+
+# If you have Drush 9+ run:
+drush theme:enable em_magazine
+```
+
+6. Set EM as default theme
 
 ```sh
 drush cset -y system.theme default em_magazine
 ```
 
-6. Clear Drupal cache
+7. Clear Drupal cache
 
 ```sh
 drush cr
 ```
 
-7. Import the EM configuration
+8. Import the EM configuration
 
 ```sh
  drush cim -y --partial --source=configuration/thunder_config/
 ```
 
-8. Set /combo/6 as a default front page
+9. Set /combo/6 as a default front page
 
 ```sh
 drush cset -y system.site page.front /combo/6
 ```
 
-9. When you're done, you can remove the **configuration** directory from a Drupal root.
+10. When you're done, you can remove the **configuration** directory from a Drupal root.
 
