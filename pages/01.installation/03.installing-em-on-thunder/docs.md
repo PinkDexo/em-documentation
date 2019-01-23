@@ -1,5 +1,5 @@
 ---
-title: ' Installing EM on Thunder'
+title: 'Quick Thunder Installation'
 taxonomy:
     category:
         - docs
@@ -12,7 +12,7 @@ Thunder Project Page: [https://www.drupal.org/project/thunder](https://www.drupa
 
 <hr>
 
-Installing TheMAG on Thunder requires **Drush**.
+Installing **EM** on Thunder requires **Drush**.
 
 1. Download and install [**Drupal Thunder**](https://www.drupal.org/project/thunder).
 2. From the Envato package, move all directories from **em_thunder** to your Drupal Thunder root directory.
