@@ -7,7 +7,7 @@ taxonomy:
 
 # IInstallation 
 
-Installing EM on Drupal and Thunder
+Installing EM on Drupal and Thunder<br>
 The package contains four different code-bases, so you can install EM Magazine as:
 
 - [Standard Drupal site](/installation/quick-installation)
