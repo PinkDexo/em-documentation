@@ -36,7 +36,7 @@ Change db_user, db_pass and db_name with your database info. The --account-name 
 4. If you'd like to start with a demo content, enable the **EM Thunder Demo** module:
 
 ```sh
-drush en -y em_thunder_demo
+../bin/drush en -y em_thunder_demo
 ```
 ---
 
