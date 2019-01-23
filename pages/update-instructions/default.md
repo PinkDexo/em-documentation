@@ -2,6 +2,9 @@
 title: 'Update Instructions'
 ---
 
+!Always test the updates on a non production environment!
+
+
 #### EM 1.3.1
 
 1. Replace the "em" theme located in your theme directory (`themes/em`) with **THEME/em** from the Envato package.
