@@ -2,7 +2,7 @@
 title: 'Update Instructions'
 ---
 
-!!! Always test updates on a non production environment!
+! Always test updates on a non production environment!
 
 
 #### EM 1.3.1
