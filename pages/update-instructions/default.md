@@ -2,6 +2,11 @@
 title: 'Update Instructions'
 ---
 
+#### EM 1.3.1
+
+1. Replace the "em" theme located in your theme directory (`themes/em`) with **THEME/em** from the Envato package.
+2. Go to Performance page and clear the cache (`/admin/config/development/performance`)
+
 #### EM 1.3.0
 
 1. In your Drupal theme directory, replace  **em** (`themes/em`) with **em** theme from the Envato package located in **other/theme_only/em**.
