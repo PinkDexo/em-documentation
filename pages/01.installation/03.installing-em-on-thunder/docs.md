@@ -1,5 +1,5 @@
 ---
-title: 'Quick Thunder Installation'
+title: 'Thunder Quick Installation'
 taxonomy:
     category:
         - docs
