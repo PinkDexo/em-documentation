@@ -85,3 +85,10 @@ When import has finish, remove the **configuration** directory from a Thunder ro
 drush en -y em_default_content
 ```
 
+#### Install the demo content
+
+To start with a demo content, enable the **EM Thunder Demo** module:
+
+```sh
+drush en -y em_thunder_demo
+```
