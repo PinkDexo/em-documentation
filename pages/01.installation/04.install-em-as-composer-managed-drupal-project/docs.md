@@ -30,7 +30,7 @@ drush site:install \
   --account-mail="your@mail.com" \
 ```
 
-Change the db_user, db_pass and db_name with your database info. The --account-name is your Drupal username and the --account-pass your Drupal password. This Drush command will install Drupal and import the configuration.
+Change db_user, db_pass and db_name with your database info. The --account-name is your Drupal username and the --account-pass your Drupal password.
 
 4. If you'd like to start with a demo content, enable the **EM Demo** module:
 
