@@ -27,5 +27,5 @@ taxonomy:
 If you'd like to start with a demo content, enable the **EM Demo** module:
 
 1. Open your site in a web browser
-2. Click on **Extend** under Administration menu. ('/admin/modules')
+2. Click on **Extend** under Administration menu. (`/admin/modules`)
 3. Enable the **EM Demo** module.
