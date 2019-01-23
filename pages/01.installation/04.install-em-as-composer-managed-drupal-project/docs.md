@@ -37,8 +37,9 @@ Change db_user, db_pass and db_name with your database info. The --account-name 
 ```sh
 drush en -y em_demo_content
 ```
+---
 
-If you are not familiar with Using Composer with Drupal, you can start from here:
+This two articles will help you to understand how to manage your Drupal site with Composer:
 
-Composer: https://www.drupal.org/docs/develop/using-composer
-Drupal 8 Composer Best Practices: https://www.lullabot.com/articles/drupal-8-composer-best-practices
+Using Composer: [https://www.drupal.org/docs/develop/using-composer](https://www.drupal.org/docs/develop/using-composer) <br>
+Drupal 8 Composer Best Practices: [https://www.lullabot.com/articles/drupal-8-composer-best-practices](https://www.lullabot.com/articles/drupal-8-composer-best-practices)
