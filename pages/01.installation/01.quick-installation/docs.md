@@ -1,5 +1,5 @@
 ---
-title: 'Quick installation'
+title: 'Quick Installation'
 media_order: 'install-lang.jpg,install-progress.jpg,install-from-config.jpg'
 taxonomy:
     category:
