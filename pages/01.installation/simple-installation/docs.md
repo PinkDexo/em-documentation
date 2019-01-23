@@ -1,6 +1,7 @@
 ---
 title: 'Simple Installation'
 media_order: 'import-demo-2.jpg,import-demo-1.jpg,install-enable-modules.jpg,install-extend.jpg,install-profile.jpg,install-lang.jpg,install-progress.jpg'
+published: false
 taxonomy:
     category:
         - docs
