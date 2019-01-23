@@ -12,11 +12,11 @@ Thunder Project Page: [https://www.drupal.org/project/thunder](https://www.drupa
 
 <hr>
 
-Installing **EM** on Thunder requires **Drush**.
+This Installation procedure requires [**Drush**](https://www.drush.org/).
 
 1. Download and install [**Drupal Thunder**](https://www.drupal.org/project/thunder).
-2. From the Envato package, move all directories from **em_thunder** to your Drupal Thunder root directory.
-4. Use Drush to enable required modules.
+2. From the Envato package unzip the **INSTALLATION/em-thunder.zip**, and move the themes, modules, libraries and configuration directory to your Thunder root directory.
+4. Use **Drush** to enable required modules.
 
 ```sh
 drush en -y \
@@ -37,11 +37,12 @@ drush en -y \
   poll \
   search \
   block_content \
+  tb_megamenu \
   em_dynamic_teaser \
   em_tweaks
 ```
 
-5. Enable the EM Magazine theme
+5. Enable the EM theme
 
 ```sh
 # Note: Check your Drush version (drush --version) and use an appropriate command to enable the theme:
@@ -76,6 +77,11 @@ drush cr
 ```sh
 drush cset -y system.site page.front /combo/6
 ```
+When import has finish, remove the **configuration** directory from a Thunder root directory.
 
-10. When you're done, you can remove the **configuration** directory from a Drupal root.
+10. Enable the **EM default content** module. This module will create a few menu items and blocks so you can have an easy kick-start.
+
+```sh
+drush en -y em_default_content
+```
 
