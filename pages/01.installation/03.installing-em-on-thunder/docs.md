@@ -14,7 +14,7 @@ Thunder Project Page: [https://www.drupal.org/project/thunder](https://www.drupa
 
 This Installation procedure requires [**Drush**](https://www.drush.org/).
 
-1. Download and install [**Drupal Thunder**](https://www.drupal.org/project/thunder).
+1. Download and install [**Drupal Thunder**](https://www.drupal.org/project/thunder). Note that if you plan to start your site with a demo content, do not install Thunder Demo module because EM provides its own module for demo content.
 2. From the Envato package unzip the **INSTALLATION/em-thunder.zip**, and move the themes, modules, libraries and configuration directory to your Thunder root directory.
 4. Use **Drush** to enable required modules.
 
