@@ -5,6 +5,17 @@ taxonomy:
         - docs
 ---
 
+#### v1.3.1 (January 23, 2019)
+
+- New: Added support for composer-managed Drupal projects with ready-made composer.json
+- New: Added support for composer-managed Thunder projects with ready-made composer.json
+- Update: Installation instructions for composer-managed sites.
+- Update: Drupal core to 8.6.7 for new installs
+- Update: Modules to the latest versions
+- Fix: Incorrect path to logo image on a multilingual site.
+- Fix: Social icons in the footer are not aligned at center
+
+
 #### v1.3.0 (November 4, 2018)
 
 - Added support for Poll module.
