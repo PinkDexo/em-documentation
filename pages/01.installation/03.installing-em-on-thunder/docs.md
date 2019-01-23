@@ -77,7 +77,6 @@ drush cr
 ```sh
 drush cset -y system.site page.front /combo/6
 ```
-When import has finish, remove the **configuration** directory from a Thunder root directory.
 
 10. Enable the **EM default content** module. This module will create a few menu items and blocks so you can have an easy kick-start.
 
