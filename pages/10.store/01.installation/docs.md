@@ -20,7 +20,7 @@ drush en -y commerce_checkout em_commerce_field_group
 ```
 
 3. Unzip the **CONFIGURATION/shop_config.zip** from the Envato package and move the **shop_config** directory to your Drupal root directory.
-4. Import the configuration with **drush --partial** import command:
+4. Import the configuration with **drush** import command:
 
 ```sh
 drush cim -y --partial --source=shop_config/
