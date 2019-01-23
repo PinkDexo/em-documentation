@@ -5,9 +5,9 @@ taxonomy:
         - docs
 ---
 
-To install EM shop, first you have to download and enable Drupal Commerce modules, then import EM Shop configuration. This Procedure requires usage of Composer and Drush.
+To install EM shop, first you have to download and enable Drupal Commerce modules, then import EM Shop configuration. This procedure requires usage of Composer and Drush.
 
-1. Run the **Composer** from your Drupal root directory to download the Commerce modules:
+1. Use **Composer** to download Commerce modules. 
 
 ```sh
 composer require drupal/commerce
@@ -19,11 +19,11 @@ composer require drupal/commerce
 drush en -y commerce_checkout em_commerce_field_group
 ```
 
-3. Unzip and move "**shop_config**" directory from the **configuration** directory in Envato package to your Drupal root directory.
-4. Import the configuration with Drush:
+3. Unzip the **CONFIGURATION/shop_config.zip** from the Envato package and move the **shop_config** directory to your Drupal root directory.
+4. Import the configuration with **drush --partial** import command:
 
 ```sh
 drush cim -y --partial --source=shop_config/
 ```
 
-5. When import finish, you can remove the **shop_config** directory from the Drupal root.
+5. When import finish, you can remove the **shop_config** from your Drupal root.
