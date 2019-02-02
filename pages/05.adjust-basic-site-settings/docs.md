@@ -24,7 +24,7 @@ Choose **Configuration > System > Basic site settings** from the **Toolbar** (`/
 
 ### Front page
 
-To set the front page, simply copy the relative path from the URL and place it in the "**Default front page**" field. The Demo contains dozens of predefined homepage concepts. You can use one of them for your home page. Also, you can modified any of these pages later and adjust it for your needs, or you can create your own unique home page.
+To set the front page, simply copy the relative path from the URL and place it in the "**Default front page**" field. The Demo contains dozens of predefined homepage concepts. You can use one of them for your home page. Also, you can modify any of these pages later and adjust it for your needs, or you can create your own unique home page.
 
 See the image below for example. Set the "**Three column masonry**" page as a front page.
 
