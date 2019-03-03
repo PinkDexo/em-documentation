@@ -5,6 +5,13 @@ taxonomy:
         - docs
 ---
 
+#### v1.3.2 (March 4, 2019)
+
+- Update: Drupal core to 8.6.10 for new installs
+- Update: Modules to the latest versions
+- Fix: A security fix in Drupal 8.6.10 prevents demo import.
+- Fix: Notice: Undefined index: base_path in em_preprocess()
+
 #### v1.3.1 (January 23, 2019)
 
 - New: Added support for composer-managed Drupal projects with ready-made composer.json
