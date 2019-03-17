@@ -19,7 +19,7 @@ composer require drupal/commerce
 drush en -y commerce_checkout em_commerce_field_group
 ```
 
-#### Shop configuration import
+### Shop configuration import
 
 If you import the configuration on a composer managed Drupal or Thunder site run:
 
