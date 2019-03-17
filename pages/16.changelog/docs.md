@@ -5,6 +5,12 @@ taxonomy:
         - docs
 ---
 
+#### v1.3.3 (March 18, 2019)
+- Update: Drupal core to 8.6.12 for new installs.
+- Update: Modules to the latest versions.
+- Fix: Call to a member function getExtension() when you use the base theme as a default theme.
+- Fix: Panels and Panelizer modules are patched according to these issues: [Change panels store](https://www.drupal.org/project/panels/issues/3031778), [Change panelizer store](https://www.drupal.org/project/panelizer/issues/3034080).
+
 #### v1.3.2 (March 4, 2019)
 
 - Update: Drupal core to 8.6.10 for new installs
