@@ -19,11 +19,18 @@ composer require drupal/commerce
 drush en -y commerce_checkout em_commerce_field_group
 ```
 
-3. Unzip the **CONFIGURATION/shop_config.zip** from the Envato package and move the **shop_config** directory to your Drupal root directory.
-4. Import the configuration with **drush** import command:
+
+3. Import the configuration with **drush**:
+
+If you import the configuration on a composer managed Drupal or Thunder site run:
 
 ```sh
-drush cim -y --partial --source=shop_config/
+cim -y --partial --source=../config/shop_config/
 ```
 
-5. When import is finish, you can remove the **shop_config** from your Drupal root.
+otherwise run:
+
+```sh
+drush cim -y --partial --source=sites/default/config/shop_config/
+```
+
