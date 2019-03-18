@@ -23,15 +23,22 @@ drush en -y commerce_checkout em_commerce_field_group
 
 #### Configuration import
 
-If you import the configuration on a composer managed Drupal or Thunder site run:
+By default, the commerce configuration is included in all packages. To import the configuration, run the drush command depending on the installation package you have used.
+
+If you have composer managed **Drupal** or **Thunder** site, run:
 
 ```sh
 cim -y --partial --source=../config/shop_config/
 ```
 
-otherwise run:
+If you run standard Drupal site:
 
 ```sh
 drush cim -y --partial --source=sites/default/config/shop_config/
 ```
 
+If you have standard Thunder site:
+
+```sh
+drush cim -y --partial --source=configuration/thunder_config/shop_config/
+```
