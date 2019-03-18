@@ -23,7 +23,7 @@ drush en -y commerce_checkout em_commerce_field_group
 
 #### Configuration import
 
-By default, the commerce configuration is included in all packages. To import the configuration, run the drush command depending on the installation package you have used.
+By default, the commerce configuration is included in all packages. To import the configuration, run drush command depending on the installation package you have used.
 
 If you have composer managed **Drupal** or **Thunder** site, run:
 
