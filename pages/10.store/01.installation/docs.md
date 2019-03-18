@@ -28,7 +28,7 @@ By default, the commerce configuration is included in all packages. To import th
 If you have composer managed **Drupal** or **Thunder** site, run:
 
 ```sh
-cim -y --partial --source=../config/shop_config/
+drush cim -y --partial --source=../config/shop_config/
 ```
 
 If you run standard Drupal site:
