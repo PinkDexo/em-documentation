@@ -12,7 +12,7 @@ taxonomy:
 - Update: Font Awesome library to v5.8.1.
 - New: Added page--node--panelized.html.twig template file. This template will override the default page template on all panelized nodes.
 - Fix: Minor CSS fixes.
-- Downgrade ctools, and panels module since this [issue](https://www.drupal.org/project/panelizer/issues/3034080). If you like to use the latest versions of those modules, please consider applying patch #4 to Panelizer module. 
+- Downgrade ctools, and panels module since [this issue](https://www.drupal.org/project/panelizer/issues/3034080). If you like to use the latest versions of those modules, please consider applying patch #4 to Panelizer module. 
 
 #### v1.3.3 (March 18, 2019)
 
