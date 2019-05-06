@@ -1,5 +1,8 @@
 ---
 title: 'Updating Drupal and modules'
+taxonomy:
+    category:
+        - docs
 ---
 
 ! When you plan to perform an update, please follow the Drupal's documentation on how to update the [core](https://www.drupal.org/docs/8/update) and [modules](https://www.drupal.org/docs/8/update/update-modules). You should consider that sometimes updates may break your website or some of its functionalities. A reason for this can be a bug in a module, conflict with some other modules or core, missing dependency or incompatibility with your environment. Breaking your site or functionalities with performing module updates or installing new modules **IS NOT AN ITEM ISSUE NOR A THEME ISSUE** and is not covered by the [ThemeForest support policy](https://themeforest.net/page/item_support_policy). 
