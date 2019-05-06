@@ -6,7 +6,7 @@ Patches are a common thing when you work with Drupal. They are pieces of code th
 
 This item uses a few contributed Drupal modules that need to be patched for the theme to work as is designed.  However, if you have purchased this item, you shouldn't worry about applying patches because the package includes already patched modules.
 
-This document is for informational purposes only so that in the future if you update some of the modules below you should follow the module's issue, and you may need to apply the patch if the module maintainer does not have fixed the problem yet.
+This document is for informational purposes only so that in the future if you update some of the modules below you should follow the module's issue, and you may need to [apply a patch](https://www.drupal.org/patch/apply) if the module maintainer does not have fixed the problem yet.
 
 ---
 
