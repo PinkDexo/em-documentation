@@ -1,5 +1,5 @@
 ---
-title: 'Patches and Issues'
+title: 'Issues and Patches'
 ---
 
 Patches are a common thing when you work with Drupal. They are pieces of code that describes the changes between a before and after state of either a module or core. We commonly use patches to improve the code, add extra functionalities to a module or fix an existing issue. By applying the patch, the issue should no longer exist.
