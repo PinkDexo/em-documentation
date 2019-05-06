@@ -8,28 +8,32 @@ This item uses a few contributed Drupal modules that need to be patched for the 
 
 This document is for informational purposes only so that in the future if you update some of the modules below you should follow the module's issue, and you may need to apply the patch if the module maintainer does not have fixed the problem yet.
 
+---
 
-##### **Page Manager (page_manager)**
+##### **Page Manager**
 
 **issue**: [Incorrect page_title title in browser toolbar](https://www.drupal.org/project/page_manager/issues/2752227)<br>
 **patch**: [#37 - page_manager-incorrect-page_title-2752227-37-8.x.4.x.patch](https://www.drupal.org/files/issues/2018-10-26/page_manager-incorrect-page_title-2752227-37-8.x.4.x.patch)
 
 
-#### Panels (panels)
+##### **Panels**
 
-**issue**: [Page title does not display](https://www.drupal.org/project/panels/issues/2869412)
+**issue**: [Page title does not display](https://www.drupal.org/project/panels/issues/2869412)<br>
 **patch**: [#27 - panels--page_title_does_not_display--2869412-27.patch](https://www.drupal.org/files/issues/2018-03-19/panels--page_title_does_not_display--2869412-27.patch)
 
-**issue**: [Changes to Layout not being saved](https://www.drupal.org/project/panels/issues/2824632)
+**issue**: [Changes to Layout not being saved](https://www.drupal.org/project/panels/issues/2824632)<br>
 **patch**: [#16 - panels-fix_updating_layout-2824632-16-D8.patch](https://www.drupal.org/files/issues/2018-08-28/panels-fix_updating_layout-2824632-16-D8.patch)
 
 
-#### Poll
-issue: [Most Recent Poll - Question title is Displayed as Block Title](https://www.drupal.org/project/poll/issues/2923946)
+##### **Poll**
+issue: [Most Recent Poll - Question title is Displayed as Block Title](https://www.drupal.org/project/poll/issues/2923946)<br>
 patch: [#7 - question-title-is-displayed-as-block-title-2923946-8.x-1.x-dev-7.patch](https://www.drupal.org/files/issues/2019-03-15/question-title-is-displayed-as-block-title-2923946-8.x-1.x-dev-7.patch)
 
 
-#### Mailchimp (mailchimp)
-issue: [Notice: Undefined property: stdClass::$size in mailchimp_insert_drupal_form_tag()](https://www.drupal.org/project/mailchimp/issues/2936099) 
+##### **Mailchimp**
+issue: [Notice: Undefined property: stdClass::$size in mailchimp_insert_drupal_form_tag()](https://www.drupal.org/project/mailchimp/issues/2936099)<br>
 patch: [#6 - suppress-size-notice-2936099-6.patch](https://www.drupal.org/files/issues/2018-06-07/suppress-size-notice-2936099-6.patch)
+
+---
+
 
