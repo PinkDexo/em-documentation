@@ -15,6 +15,7 @@ This document is for informational purposes only so that in the future if you up
 **issue**: [Incorrect page_title title in browser toolbar](https://www.drupal.org/project/page_manager/issues/2752227)<br>
 **patch**: [#37 - page_manager-incorrect-page_title-2752227-37-8.x.4.x.patch](https://www.drupal.org/files/issues/2018-10-26/page_manager-incorrect-page_title-2752227-37-8.x.4.x.patch)
 
+---
 
 ##### **Panels**
 
@@ -24,11 +25,13 @@ This document is for informational purposes only so that in the future if you up
 **issue**: [Changes to Layout not being saved](https://www.drupal.org/project/panels/issues/2824632)<br>
 **patch**: [#16 - panels-fix_updating_layout-2824632-16-D8.patch](https://www.drupal.org/files/issues/2018-08-28/panels-fix_updating_layout-2824632-16-D8.patch)
 
+---
 
 ##### **Poll**
 issue: [Most Recent Poll - Question title is Displayed as Block Title](https://www.drupal.org/project/poll/issues/2923946)<br>
 patch: [#7 - question-title-is-displayed-as-block-title-2923946-8.x-1.x-dev-7.patch](https://www.drupal.org/files/issues/2019-03-15/question-title-is-displayed-as-block-title-2923946-8.x-1.x-dev-7.patch)
 
+---
 
 ##### **Mailchimp**
 issue: [Notice: Undefined property: stdClass::$size in mailchimp_insert_drupal_form_tag()](https://www.drupal.org/project/mailchimp/issues/2936099)<br>
