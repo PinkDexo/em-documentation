@@ -9,7 +9,7 @@ This item uses a few contributed Drupal modules that need to be patched for the 
 This document is for informational purposes only so that in the future if you update some of the modules below you should follow the module's issue, and you may need to apply the patch if the module maintainer does not have fixed the problem yet.
 
 
-###### Page Manager (page_manager)
+##### **Page Manager (page_manager)**
 
 **issue**: [Incorrect page_title title in browser toolbar](https://www.drupal.org/project/page_manager/issues/2752227)<br>
 **patch**: [#37 - page_manager-incorrect-page_title-2752227-37-8.x.4.x.patch](https://www.drupal.org/files/issues/2018-10-26/page_manager-incorrect-page_title-2752227-37-8.x.4.x.patch)
