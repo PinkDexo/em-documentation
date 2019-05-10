@@ -4,6 +4,12 @@ title: 'Update Instructions'
 
 ! Always test updates on a non production environment!
 
+ #### EM 1.3.5
+
+1. Replace the "em" theme located in your theme directory (`themes/em`) with **THEME/em** from the Envato package.
+2. Go to Performance page and clear the cache (`/admin/config/development/performance`)
+
+
 #### EM 1.3.4
 
 1. Replace the "em" theme located in your theme directory (`themes/em`) with **THEME/em** from the Envato package.
