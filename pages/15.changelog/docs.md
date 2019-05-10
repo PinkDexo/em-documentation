@@ -5,6 +5,14 @@ taxonomy:
         - docs
 ---
 
+#### v1.3.5 (May 10, 2019)
+
+- Update: Drupal core to 8.7.1 for new installs.
+- Update: Modules to the latest versions.
+- Fix: Node/Article preview.
+- Fix: Improving the footer menu for small displays
+
+
 #### v1.3.4 (April 12, 2019)
 
 - Update: Drupal core to 8.6.14 for new installs.
