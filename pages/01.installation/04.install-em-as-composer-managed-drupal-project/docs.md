@@ -1,5 +1,5 @@
 ---
-title: 'Install EM as composer-managed Drupal project'
+title: 'Install EM as composer-managed Drupal site'
 taxonomy:
     category:
         - docs
