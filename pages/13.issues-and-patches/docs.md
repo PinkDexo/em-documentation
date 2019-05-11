@@ -11,13 +11,6 @@ This item uses a few contributed Drupal modules that need to be patched for the 
 
 This document is for informational purposes only so that in the future if you update some of the modules below you should follow the module's issue, and you may need to [apply a patch](https://www.drupal.org/patch/apply) if the module maintainer does not have fixed the problem yet. If you use a composer managed version of the theme, you don't have to worry about applying patches. The patches are listed in the composer.json file, and they will be automatically applied when you perform an update on a patched module.
 
----
-
-##### **CTools/Panelizer**
-
-The package includes CTools module version 8.x-3.0 and Panels module version 8.x-4.3. If you update these two modules, you will face problems with Panelizer module related to this issue:  [Change panelizer store](https://www.drupal.org/project/panelizer/issues/3034080). So, if you decide to upgrade CTools and Panels, you should apply patch #4. 
-
-But since those are not security updates, it's better to skip them for now until Panelizer releases a version compatible with CTools 3.1 and above.
 
 ---
 
@@ -35,6 +28,14 @@ But since those are not security updates, it's better to skip them for now until
 
 **issue**: [Changes to Layout not being saved](https://www.drupal.org/project/panels/issues/2824632)<br>
 **patch**: [#16 - panels-fix_updating_layout-2824632-16-D8.patch](https://www.drupal.org/files/issues/2018-08-28/panels-fix_updating_layout-2824632-16-D8.patch)
+
+
+---
+
+##### **Panelizer**
+
+**issue**: [PanelizerWizardContextForm calls parent constructor without enough arguments under CTools 3.1](https://www.drupal.org/project/panelizer/issues/3031671)<br>
+**patch**: [#8 - 3031671-8.patch](https://www.drupal.org/files/issues/2019-04-03/3031671-8.patch)
 
 ---
 
