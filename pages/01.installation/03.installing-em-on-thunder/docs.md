@@ -1,8 +1,9 @@
 ---
-title: 'Thunder Quick Installation'
+title: 'Standard Thunder Installation'
 taxonomy:
     category:
         - docs
+menu: 'Standard Thunder Installation'
 ---
 
 Thunder is a web-based open-source Content Management System based on Drupal 8. Thunder enabling its users to benefit from the Drupal community's continuous development efforts, as well as specific modules,  contributed by Hubert Burda Media, other publishers, and industry partners – the Thunder Coalition.
