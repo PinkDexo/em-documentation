@@ -5,88 +5,40 @@ taxonomy:
         - docs
 ---
 
-Thunder is a web-based open-source Content Management System setting new standards for publishers’ CMS. It is based on Drupal 8, enabling its users to benefit from the Drupal community's continuous development efforts, as well as specific modules contributed by Hubert Burda Media, other publishers and industry partners – the Thunder Coalition.
+Thunder is a web-based open-source Content Management System based on Drupal 8. Thunder enabling its users to benefit from the Drupal community's continuous development efforts, as well as specific modules,  contributed by Hubert Burda Media, other publishers, and industry partners – the Thunder Coalition.
 
 Thunder Website: [https://thunder.org/](https://thunder.org/)<br>
 Thunder Project Page: [https://www.drupal.org/project/thunder](https://www.drupal.org/project/thunder)
 
 <hr>
 
-This Installation procedure requires [**Drush**](https://www.drush.org/).
+1. Download and unzip the [**Thunder**](https://www.drupal.org/project/thunder).
+2. From Envato package unzip the **INSTALLATION/em-thunder.zip** and move **themes, modules, and libraries** to your Thunder root directory and **config** to your **sites/default** directory.
+3. In the **sites/default** directory duplicate the **default.settings.php** file and rename it to **settings.php**.
+4. Open the **settings.php** file with a text editor and add this line to the end of the file:
 
-1. Download and install [**Drupal Thunder**](https://www.drupal.org/project/thunder). Note that if you plan to start your site with a demo content, do not install Thunder Demo module because EM provides its own module for demo content.
-2. From the Envato package unzip the **INSTALLATION/em-thunder.zip**, and move the themes, modules, libraries and configuration directory to your Thunder root directory.
-4. Use **Drush** to enable required modules.
+```php
+$config_directories['sync'] = 'sites/default/config/sync';
+```
+    
+5. Run Drush to install Thunder and EM from the configuration:
 
 ```sh
-drush en -y \
-  statistics \
-  custom_pub \
-  field_formatter \
-  masonry \
-  masonry_views \
-  page_manager \
-  page_manager_ui \
-  panelizer \
-  panels \
-  panels_ipe \
-  realname \
-  slick_views \
-  views_infinite_scroll \
-  comment \
-  poll \
-  search \
-  block_content \
-  tb_megamenu \
-  em_dynamic_teaser \
-  em_tweaks
+drush site:install thunder \
+--existing-config \
+--db-url=mysql://db_user:db_password@localhost/db_name  \
+--account-name="demo" \
+--account-pass="demo" \
+--account-mail="your@email.com" \
+thunder_module_configure_form.install_modules_thunder_demo=NULL
 ```
 
-5. Enable the EM theme
+Change db_user, db_pass, and db_name with your database info. The --account-name is your Drupal username and the --account-pass your Drupal password. The last line "thunder_module_configure_form.install_modules_thunder_demo=NULL" tells the installer not to install Thunder demo content so you can install the EM Demo content later.
 
-```sh
-# Note: Check your Drush version (drush --version) and use an appropriate command to enable the theme:
-
-# If you have Drush 8+ run:
-drush en -y em_magazine
-
-# If you have Drush 9+ run:
-drush theme:enable em_magazine
-```
-
-6. Set EM as default theme
-
-```sh
-drush cset -y system.theme default em_magazine
-```
-
-7. Clear Drupal cache
-
-```sh
-drush cr
-```
-
-8. Import the EM configuration
-
-```sh
- drush cim -y --partial --source=configuration/thunder_config/
-```
-
-9. Set /combo/6 as a default front page
-
-```sh
-drush cset -y system.site page.front /combo/6
-```
-
-10. Enable the **EM default content** module. This module will create a few menu items and blocks so you can have an easy kick-start.
-
-```sh
-drush en -y em_default_content
-```
 
 #### Install the demo content
 
-To start with a demo content, enable the **EM Thunder Demo** module:
+To start with demo content, enable the **EM Thunder Demo** module:
 
 ```sh
 drush en -y em_thunder_demo
