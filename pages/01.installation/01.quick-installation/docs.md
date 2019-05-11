@@ -1,9 +1,10 @@
 ---
-title: 'Quick Installation'
+title: 'Standard Drupal Installation'
 media_order: 'install-lang.jpg,install-progress.jpg,install-from-config.jpg'
 taxonomy:
     category:
         - docs
+menu: 'Standard Drupal Installation'
 ---
 
 1. Extract the files from **INSTALLATION/em-drupal.zip** to your webroot directory or to your local development environment. The package contains Drupal core code-base, all required modules and the theme.
