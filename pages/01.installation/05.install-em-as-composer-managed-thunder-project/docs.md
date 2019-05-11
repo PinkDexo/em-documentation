@@ -1,5 +1,5 @@
 ---
-title: 'Install EM as composer-managed Thunder project'
+title: 'Install EM as composer-managed Thunder site'
 taxonomy:
     category:
         - docs
