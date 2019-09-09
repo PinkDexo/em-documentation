@@ -25,9 +25,9 @@ cd docroot
 ../bin/drush site:install thunder \
 --existing-config \
 --db-url=mysql://db_user:db_password@localhost/db_name  \
---account-name="demo" \
---account-pass="demo" \
---account-mail="your@email.com" \
+--account-name=demo \
+--account-pass=demo \
+--account-mail=example@example.com \
 thunder_module_configure_form.install_modules_thunder_demo=NULL
 ```
 
