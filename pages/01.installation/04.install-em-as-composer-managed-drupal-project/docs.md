@@ -25,9 +25,9 @@ cd web
 drush site:install \
   --existing-config  \
   --db-url=mysql://db_user:db_pass@localhost/db_name \
-  --account-name="demo" \
-  --account-pass="demo" \
-  --account-mail="your@mail.com" \
+  --account-name=demo \
+  --account-pass=demo \
+  --account-mail=example@example.com \
 ```
 
 Change db_user, db_pass and db_name with your database info. The --account-name is your Drupal username and the --account-pass your Drupal password.
