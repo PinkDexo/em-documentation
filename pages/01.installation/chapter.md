@@ -11,5 +11,4 @@ The package contains four different code-bases, so you can install EM Magazine a
 
 [Standard Drupal site](/installation/quick-installation)<br>
 [Composer-managed Drupal project](/installation/install-em-as-composer-managed-drupal-project)<br>
-[Standard Thunder site](/installation/installing-em-on-thunder)<br>
 [Composer-managed Thunder project](/installation/install-em-as-composer-managed-thunder-project)
