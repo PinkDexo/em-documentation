@@ -1,5 +1,5 @@
 ---
-title: 'Using the theme on a custom content type'
+title: 'Using the theme with a custom content type'
 media_order: 'custom-type-1.jpg,custom-type-2.jpg,custom-type-3.jpg'
 taxonomy:
     category:
