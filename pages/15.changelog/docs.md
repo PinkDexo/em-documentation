@@ -5,6 +5,15 @@ taxonomy:
         - docs
 ---
 
+#### v1.3.6 (September 9, 2019)
+
+- Drupal and modules updated to the latest versions.
+- Minor configurational fixes for new installs
+- Thunder package updated to the latest version - Thunder 3
+- Added boilerplate template files to the sub-theme for using with custom content types.
+- Dropped support for standard Thunder installation. From this version and after, Thunder can be installed only with a composer.
+- Documentation update on "Adjusting the theme for a custom content type." 
+
 #### v1.3.5 (May 10, 2019)
 
 - Update: Drupal core to 8.7.1 for new installs.
