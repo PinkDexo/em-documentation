@@ -11,8 +11,8 @@ taxonomy:
 - Minor configurational fixes for new installs
 - Thunder package updated to the latest version - Thunder 3
 - Added boilerplate template files to the sub-theme for using with custom content types.
-- Dropped support for standard Thunder installation. From this version and after, Thunder can be installed only with a composer.
-- Documentation update on "Adjusting the theme for a custom content type." 
+- Dropped support for standard Thunder installation. From this version and on, Thunder can be installed only with a composer.
+- Documentation update on "[Adjusting the theme for a custom content type](https://docs.em.pinkdexo.com/customizing-the-theme/adjusting-the-theme-for-custom-content-type)."
 
 #### v1.3.5 (May 10, 2019)
 
