@@ -4,6 +4,12 @@ title: 'Update Instructions'
 
 ! Always test updates on a non production environment!
 
+ #### EM 1.3.6
+ 
+ There are no changes made on the base theme, so you don't have to replace it. 
+The sub-theme "em_magazine" includes boilerplate template files that can help to adjust the theme for your custom content types.
+
+
  #### EM 1.3.5
 
 1. Replace the "em" theme located in your theme directory (`themes/em`) with **THEME/em** from the Envato package.
