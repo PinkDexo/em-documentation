@@ -1,6 +1,10 @@
 ---
 title: 'Using the theme on a custom content type'
 media_order: 'custom-type-1.jpg,custom-type-2.jpg,custom-type-3.jpg'
+taxonomy:
+    category:
+        - docs
+menu: 'Custom Content Types'
 ---
 
 The theme is designed to work with the default Drupal content types, Article (article), and the Basic Page (page).
