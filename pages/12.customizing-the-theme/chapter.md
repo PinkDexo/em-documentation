@@ -3,6 +3,7 @@ title: 'Customizing the Theme'
 taxonomy:
     category:
         - docs
+menu: Customizations
 ---
 
 # Customizing the Theme
