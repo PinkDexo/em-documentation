@@ -6,8 +6,7 @@ title: 'Update Instructions'
 
  #### EM 1.3.6
  
- There are no changes made on the base theme, so you don't have to replace it. 
-The sub-theme "em_magazine" includes boilerplate template files that can help to adjust the theme for your custom content types.
+There are no changes made on the base theme, so you don't have to replace it. The sub-theme "em_magazine" includes boilerplate template files that can help to adjust the theme for your custom content types.
 
 
  #### EM 1.3.5
