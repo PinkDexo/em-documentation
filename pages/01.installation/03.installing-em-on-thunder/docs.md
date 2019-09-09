@@ -1,5 +1,6 @@
 ---
 title: 'Standard Thunder Installation'
+published: false
 menu: 'Standard Thunder Installation'
 ---
 
