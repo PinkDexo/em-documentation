@@ -1,8 +1,5 @@
 ---
 title: 'Standard Thunder Installation'
-taxonomy:
-    category:
-        - docs
 menu: 'Standard Thunder Installation'
 ---
 
