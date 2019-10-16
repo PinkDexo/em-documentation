@@ -18,9 +18,7 @@ By adjusting theme setting, you can control many theme functionalities. You can 
 
 ### Branding
 
-The path required by the logo filed is relative to your Drupal root directory. The best location to place your logo is somewhere in your **current default theme** directory.
-
-For example, you can replace the **logo-light.svg** and **logo-dark.svg** in the **branding** directory of the **em_magazine** theme, or you can create new structure, place your logo files and update the path to your logo in the theme settings.
+The theme uses light and dark logo styles. To change the logo, enter a path to your logo in the appropriate field. However, the simplest way is to replace the **logo-light.svg** and **logo-dark.svg** in the `themes/custom/em_magazine/branding`.
 
 ![](theme-settings-loogo.jpg)
 
