@@ -7,7 +7,7 @@ taxonomy:
 
 # IInstallation 
 
-The package contains four different code-bases, so you can install EM Magazine as:
+The package contains three different code-bases, so you can install EM Magazine as:
 
 [Standard Drupal site](/installation/quick-installation)<br>
 [Composer-managed Drupal project](/installation/install-em-as-composer-managed-drupal-project)<br>
