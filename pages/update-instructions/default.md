@@ -4,7 +4,7 @@ title: 'cUpdate Instructions'
 
 ! Always test updates on a non production environment!
 
-### EM 1.4.0
+#### EM 1.4.0
 
  1. Replace the "**em**" theme located in your theme directory (`themes/em`) with **THEME/em** from the Envato package.
  2. Replace **EM Dynamic Teaser module** (modules/custom/em_dynamic_teaser) with **MODULES/em_dynamic_teaser** from the package.
