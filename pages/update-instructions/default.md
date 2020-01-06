@@ -1,5 +1,5 @@
 ---
-title: 'cUpdate Instructions'
+title: 'Update Instructions'
 ---
 
 ! Always test updates on a non production environment!
