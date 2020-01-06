@@ -8,10 +8,11 @@ taxonomy:
 #### v1.4.0 (January 6, 2020)
 
 - Drupal core updated to 8.8.1, as well as the modules to their latest versions.
-- Thunder updated to latest version 3.4.1.
+- Thunder updated to the latest version 3.4.1.
+- Bootstrap grid and utilities updated to version 4.4.1
 - New Admin theme added to improve the editing experience.
 - Added support for the Forum module.
-- Multiple CSS and JavaScripts improvements
+- Multiple CSS and JavaScripts improvements.
 - Multiple configuration improvements for new installs.
 - Applied patch **#19** to Drupal core form issue "[Contextual links double trigger](https://www.drupal.org/node/2834346)". This patch solves the problem with the contextual links.
 
