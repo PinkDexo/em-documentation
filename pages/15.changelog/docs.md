@@ -13,7 +13,7 @@ taxonomy:
 - Added support for the Forum module.
 - Multiple CSS and JavaScripts improvements
 - Multiple configuration improvements for new installs.
-- Applied patch #19 to Drupal core form issue "[Contextual links double trigger](https://www.drupal.org/node/2834346)". This patch solves the problem with contextual links.
+- Applied patch **#19** to Drupal core form issue "[Contextual links double trigger](https://www.drupal.org/node/2834346)". This patch solves the problem with the contextual links.
 
 #### v1.3.6 (September 9, 2019)
 
