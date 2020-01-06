@@ -7,7 +7,7 @@ taxonomy:
 
 #### v1.4.0 (January 6, 2020)
 
-- Drupal core updated to 8.8.1, as well as modules to their latest versions.
+- Drupal core updated to 8.8.1, as well as the modules to their latest versions.
 - Thunder updated to latest version 3.4.1.
 - New Admin theme added to improve the editing experience.
 - Added support for the Forum module.
