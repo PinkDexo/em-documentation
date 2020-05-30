@@ -1,6 +1,7 @@
 ---
 title: 'Choosing menu for your site'
 media_order: 'search-menu-blocks.jpg,search-menu-blocks copy.jpg,mega-menu-add-blocks.jpg,mega-menu-choose-block.jpg,mega-menu-result.jpg'
+published: false
 taxonomy:
     category:
         - docs
