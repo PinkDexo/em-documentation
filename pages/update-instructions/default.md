@@ -4,6 +4,12 @@ title: 'Update Instructions'
 
 ! Always test updates on a non production environment!
 
+#### EM 1.4.1
+
+ 1. Replace the "**em**" theme located in your theme directory (`themes/em`) with **THEME/em** from the Envato package.
+ 2. Replace the modules in the `modules/custom/` directory with those in the `MODULES` directory from the package.
+ 3. Clear the Drupal cache.
+
 #### EM 1.4.0
 
  1. Replace the "**em**" theme located in your theme directory (`themes/em`) with **THEME/em** from the Envato package.
