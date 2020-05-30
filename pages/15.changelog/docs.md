@@ -5,6 +5,14 @@ taxonomy:
         - docs
 ---
 
+#### v1.4.1 (May 30, 2020)
+
+- Drupal core updated to 8.8.6, as well as modules to the latest versions.
+- The theme and custom modules are prepared and ready for Drupal 9.
+- Added support for the [Drupal 8 MegaMenu](https://www.drupal.org/project/we_megamenu) module since the [TB Mega Menu](https://www.drupal.org/project/tb_megamenu) is no longer maintained.
+- TB Mega Menu is removed from the composer.json and the codebase.
+- The problem with Commerce configuration import is solved.
+
 #### v1.4.0 (January 6, 2020)
 
 - Drupal core updated to 8.8.1, as well as the modules to their latest versions.
