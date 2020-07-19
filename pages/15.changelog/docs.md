@@ -7,7 +7,7 @@ taxonomy:
 
 #### v1.4.2 (July 19, 2020)
 
-- Updated Drupal core and Thunder, as well as modules to their latest versions.
+- Updated Drupal core to 8.9, Thunder, as well as modules to their latest versions.
 - Minor CSS fixes on the admin theme
 - Fix: The latest version of the Masonry API module breaks the theme Masonry grid.
 - Added new slick.html.twig template file as a solution for this issue: [Previous and next custom arrows not saving](https://www.drupal.org/project/slick/issues/3115048)
