@@ -4,6 +4,10 @@ title: 'Update Instructions'
 
 ! Always test updates on a non production environment!
 
+#### EM 1.5.0
+
+This version includes only a core upgrade, and doesn't have any changes to the theme itself.
+
 #### EM 1.4.2
 
  1. Replace the "**em**" theme located in your theme directory (`themes/em`) with **THEME/em** from the Envato package.
