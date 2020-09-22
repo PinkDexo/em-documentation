@@ -5,6 +5,11 @@ taxonomy:
         - docs
 ---
 
+#### v1.5.0 (September 23, 2020)
+
+- Drupal core updated to version 9
+- Thunder updated to version 6, which runs on Drupal 9 core.
+
 #### v1.4.2 (July 19, 2020)
 
 - Updated Drupal core to 8.9, Thunder, as well as modules to their latest versions.
